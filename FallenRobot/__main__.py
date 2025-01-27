@@ -100,6 +100,7 @@ buttons = [
         InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
     ],
 ]
+SAITAMA_IMG = "https://files.catbox.moe/a0dqhs.jpg"
 
 HELP_STRINGS = f"""
 *» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
@@ -204,7 +205,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAJYsmLWRvm70cE-mmxSNCovEf4v1ueJAAIcCAACbMK4VuL4EmZEkq8WKQQ"
+                "CAACAgUAAxkBAAIBjGeXSdnhKSt_JIwZrZjKzaf8qoyoAALXDgACTGjYVuVgr3hcNE-FNgQ"
             )
             update.effective_message.reply_photo(
                 "https://files.catbox.moe/a0dqhs.jpg"
